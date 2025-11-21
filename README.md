@@ -1,3 +1,3 @@
 # NextCivic-Web
-Fronted (HTML/CSS): Devansh Gupta\n
+Fronted (HTML/CSS): Devansh Gupta<br>
 Backend (JS): Rishikesh
