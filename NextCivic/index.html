@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextCivic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <nav class="navbar">
+        
+
+
+        <div class="profile-menu">
+            <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" class="profile-icon" id="profileIcon">
+
+            <div class="dropdown" id="dropdownMenu">
+                <a href="login.html">Login</a>
+                <a href="Signup.html">Signup</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+
+        <img src="/logo.png" id="logo" />
+
+        <ul class="nav-links" id="mobileMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" target="_main">About</a></li>
+            <li><a href="contact.html" target="_main">Contact Us</a></li>
+            <li><a href="privacy.html" target="_main">Privacy Policy</a></li>
+        </ul>
+
+
+    </nav>
+
+
+
+    
+    <section class="hero">
+        <h1 id="nextcivic_blue">NextCivic</h1>
+        <p id="welcome">Welcome to Clean Your City</p>
+
+    </section>
+
+    
+
+    
+    <section class="steps">
+        <div class="step-box">
+            <h2>0 Report</h2>
+            <p>Upload issue with photo + location</p>
+        </div>
+
+        <div class="step-box">
+            <h2>0 Track</h2>
+            <p>See progress from authorities</p>
+        </div>
+
+        <div class="step-box">
+            <h2>0 Resolve</h2>
+            <p>Issue gets solved & verified</p>
+        </div>
+    </section>
+
+    
+    <section class="report-box">
+        <div class="upload-area" id="uploadArea">
+            <p id="uploadText">Drag & drop an issue image here <br> or click to upload</p>
+            <input type="file" id="fileInput" accept="image/*" hidden>
+        </div>
+
+    <section>    
+        <textarea id="description" placeholder="Add Description" rows="5"></textarea>
+    </section>
+        <select class="category">
+            <option>Choose Issue Category</option>
+            <option>Garbage</option>
+            <option>Water Leakage</option>
+            <option>Potholes</option>
+            <option>Street Light</option>
+            <option>Tobacco Spitting</option>
+            <option>Stray Animals</option>
+
+        </select>
+
+        <div class="btn-group">
+            <button class="btn">Report</button>
+            <button class="btn">Track</button>
+            <button class="btn">Resolve</button>
+        </div>
+
+        <p class="note">Images help authorities identify the problem faster</p>
+    </section>
+
+    
+    <section class="stats">
+        <div class="stat-item">
+            <h2>0</h2>
+            <p>Issues resolved</p>
+        </div>
+        <div class="stat-item">
+            <h2>0</h2>
+            <p>Citizens participating</p>
+        </div>
+        <div class="stat-item">
+            <h2>0</h2>
+            <p>Wards connected</p>
+        </div>
+    </section>
+
+  <footer>
+    <br>    
+      <p>Made with ❤ By NextCivic Team</p>
+      <br>
+      <h4 id="credits">Credits:</h4>
+      <p id="p1">UI/UX Design: Devansh Gupta</p>
+      <p id="p2">Idea: Rishikesh  , Preetam Kumar , Devansh Gupta</p>
+      <p id="p3">Backend: Devansh Gupta</p>
+      <p id="rights">© 2025 Boris. All rights reserved.</p><br>
+
+        <div class="language-selector">
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+            </select>
+        </div>
+
+
+  </footer>    
+
+</body>
+</html>
